@@ -1,0 +1,326 @@
+export const portfolioContent = {
+  it: {
+    localeName: "Italiano",
+    nav: {
+      profile: "Profilo",
+      experience: "Esperienza",
+      skills: "Competenze",
+      contact: "Contatti",
+    },
+    location: "Verona, Italia",
+    hero: {
+      eyebrow: "Firmware Developer · Computer Engineering",
+      role: "Embedded systems · Frontend · Software engineering",
+      intro:
+        "Progetto software affidabile, dall'interfaccia al microcontrollore. Unisco competenze embedded e frontend per trasformare requisiti tecnici in soluzioni chiare e concrete.",
+      primaryAction: "Parliamo del progetto",
+      secondaryAction: "Scopri il mio percorso",
+    },
+    profile: {
+      path: "portfolio/about.json",
+      kicker: "// profilo professionale",
+      title: "Competenze tecniche, visione d'insieme.",
+      paragraphs: [
+        "Oggi sviluppo firmware embedded in C, lavorando con microcontrollori e logiche di controllo a basso livello su differenti piattaforme hardware.",
+        "La formazione informatica e l'esperienza frontend mi permettono di comprendere il prodotto nel suo insieme: architettura, implementazione ed esperienza d'uso.",
+      ],
+      code: {
+        role: "Firmware Developer",
+        company: "Edalab S.r.l.",
+        location: "Verona, IT",
+        focus: ["embedded C", "MCU"],
+        status: "formazione continua",
+      },
+      facts: [
+        ["specializzazione", "Firmware embedded"],
+        ["formazione", "Computer Engineering"],
+        ["lingue", "Italiano · Inglese B2"],
+      ],
+    },
+    profileCard: {
+      file: "profile.jpeg",
+      title: "Bruno Vincenzi",
+      caption: "Firmware Developer · Verona",
+      fields: [
+        ["ruolo", "Firmware Developer"],
+        ["azienda", "Edalab S.r.l."],
+        ["formazione", "Computer Engineering"],
+      ],
+    },
+    experience: {
+      path: "portfolio/experience.log",
+      kicker: "// esperienza",
+      title: "Esperienza professionale.",
+      intro:
+        "Un percorso dal frontend ai sistemi embedded, costruito su basi informatiche solide e formazione continua.",
+      currentStatus: "In corso",
+      experiences: [
+        {
+          id: "LOG_003",
+          period: "Oggi",
+          role: "Firmware Developer",
+          company: "Edalab S.r.l.",
+          description:
+            "Sviluppo firmware embedded in C, gestione di microcontrollori e progettazione di logiche di controllo a basso livello su ambienti hardware diversificati.",
+          tags: ["embedded C", "microcontrollori", "low level"],
+          status: "In corso",
+        },
+        {
+          id: "LOG_002",
+          period: "Ott—Dic 2023",
+          role: "Frontend Developer · Stage",
+          company: "Filosoft S.r.l. · Verona",
+          description:
+            "Sviluppo di una web application in ambito trading e integrazione dei dati tramite API GraphQL.",
+          tags: ["React", "GraphQL", "CSS"],
+          status: "Concluso",
+        },
+        {
+          id: "LOG_001",
+          period: "Apr—Giu 2023",
+          role: "Frontend Developer · Stage",
+          company: "Filosoft S.r.l. · Verona",
+          description:
+            "Sviluppo dell'interfaccia di una web application dedicata al settore della ristorazione.",
+          tags: ["Next.js", "HTML", "SCSS"],
+          status: "Concluso",
+        },
+      ],
+      educationLabel: "education[]",
+      educationCount: "3 percorsi",
+      education: [
+        {
+          id: "EDU_03",
+          status: "IN CORSO",
+          title: "Computer Engineering for Intelligent Systems",
+          description: "Laurea magistrale · Università degli Studi di Verona",
+        },
+        {
+          id: "EDU_02",
+          status: "COMPLETATA",
+          title: "Informatica",
+          description: "Laurea triennale · Università degli Studi di Verona",
+        },
+        {
+          id: "EDU_01",
+          status: "2016—2021",
+          title: "Liceo Linguistico Elio Vittorini",
+          description: "Diploma · 92/100 · Gela",
+        },
+      ],
+    },
+    skills: {
+      path: "portfolio/skills.json",
+      kicker: "// competenze",
+      title: "Competenze tecniche",
+      readout: ["AREE 03", "FOCUS EMBEDDED", "AGGIORNATE"],
+      cardStatus: "competenza attiva",
+      cards: [
+        {
+          code: "01",
+          title: "Embedded systems",
+          type: "specializzazione",
+          items: ["C", "Firmware", "Microcontrollori", "Logiche di controllo"],
+        },
+        {
+          code: "02",
+          title: "Frontend development",
+          type: "esperienza",
+          items: [
+            "React",
+            "Next.js",
+            "JavaScript",
+            "HTML",
+            "CSS / SCSS",
+            "GraphQL",
+          ],
+        },
+        {
+          code: "03",
+          title: "Software & lingue",
+          type: "competenze complementari",
+          items: ["Java", "JavaFX", "Inglese B2", "Patenti A1 / B"],
+        },
+      ],
+    },
+    contact: {
+      path: "portfolio/contact.js",
+      kicker: "// contatti",
+      title: "Parliamo del tuo",
+      titleAccent: "prossimo progetto.",
+      prompt: "contact.email",
+      channel: "canale diretto",
+      status: "Disponibile per collaborazioni e opportunità professionali.",
+      copy: "Copia email",
+      copied: "Copiata",
+      phone: "Telefono",
+      linkedin: "LinkedIn",
+    },
+    footer: {
+      built: "Progettato e sviluppato con React",
+      top: "Torna all'inizio ↑",
+    },
+  },
+  en: {
+    localeName: "English",
+    nav: {
+      profile: "Profile",
+      experience: "Experience",
+      skills: "Skills",
+      contact: "Contact",
+    },
+    location: "Verona, Italy",
+    hero: {
+      eyebrow: "Firmware Developer · Computer Engineering",
+      role: "Embedded systems · Frontend · Software engineering",
+      intro:
+        "I design reliable software, from interfaces to microcontrollers. I combine embedded and frontend expertise to turn technical requirements into clear, practical solutions.",
+      primaryAction: "Discuss a project",
+      secondaryAction: "Explore my experience",
+    },
+    profile: {
+      path: "portfolio/about.json",
+      kicker: "// professional profile",
+      title: "Technical expertise, broad perspective.",
+      paragraphs: [
+        "I currently develop embedded firmware in C, working with microcontrollers and low-level control logic across different hardware platforms.",
+        "My computer science background and frontend experience help me understand the product as a whole: architecture, implementation, and user experience.",
+      ],
+      code: {
+        role: "Firmware Developer",
+        company: "Edalab S.r.l.",
+        location: "Verona, IT",
+        focus: ["embedded C", "MCU"],
+        status: "always learning",
+      },
+      facts: [
+        ["specialisation", "Embedded firmware"],
+        ["education", "Computer Engineering"],
+        ["languages", "Italian · English B2"],
+      ],
+    },
+    profileCard: {
+      file: "profile.jpeg",
+      title: "Bruno Vincenzi",
+      caption: "Firmware Developer · Verona",
+      fields: [
+        ["role", "Firmware Developer"],
+        ["company", "Edalab S.r.l."],
+        ["education", "Computer Engineering"],
+      ],
+    },
+    experience: {
+      path: "portfolio/experience.log",
+      kicker: "// experience",
+      title: "Professional experience.",
+      intro:
+        "A path from frontend development to embedded systems, supported by a solid computer science background and continuous learning.",
+      currentStatus: "Current",
+      experiences: [
+        {
+          id: "LOG_003",
+          period: "Today",
+          role: "Firmware Developer",
+          company: "Edalab S.r.l.",
+          description:
+            "Embedded firmware development in C, microcontroller management, and low-level control logic design across different hardware environments.",
+          tags: ["embedded C", "microcontrollers", "low level"],
+          status: "Current",
+        },
+        {
+          id: "LOG_002",
+          period: "Oct—Dec 2023",
+          role: "Frontend Developer · Internship",
+          company: "Filosoft S.r.l. · Verona",
+          description:
+            "Developed a trading web application and integrated its data through GraphQL APIs.",
+          tags: ["React", "GraphQL", "CSS"],
+          status: "Completed",
+        },
+        {
+          id: "LOG_001",
+          period: "Apr—Jun 2023",
+          role: "Frontend Developer · Internship",
+          company: "Filosoft S.r.l. · Verona",
+          description:
+            "Developed the interface of a web application for the restaurant industry.",
+          tags: ["Next.js", "HTML", "SCSS"],
+          status: "Completed",
+        },
+      ],
+      educationLabel: "education[]",
+      educationCount: "3 entries",
+      education: [
+        {
+          id: "EDU_03",
+          status: "IN PROGRESS",
+          title: "Computer Engineering for Intelligent Systems",
+          description: "Master's degree · University of Verona",
+        },
+        {
+          id: "EDU_02",
+          status: "COMPLETED",
+          title: "Computer Science",
+          description: "Bachelor's degree · University of Verona",
+        },
+        {
+          id: "EDU_01",
+          status: "2016—2021",
+          title: "Elio Vittorini Language High School",
+          description: "Diploma · 92/100 · Gela",
+        },
+      ],
+    },
+    skills: {
+      path: "portfolio/skills.json",
+      kicker: "// skills",
+      title: "Technical skills",
+      readout: ["AREAS 03", "EMBEDDED FOCUS", "UP TO DATE"],
+      cardStatus: "active skill set",
+      cards: [
+        {
+          code: "01",
+          title: "Embedded systems",
+          type: "specialisation",
+          items: ["C", "Firmware", "Microcontrollers", "Control logic"],
+        },
+        {
+          code: "02",
+          title: "Frontend development",
+          type: "experience",
+          items: [
+            "React",
+            "Next.js",
+            "JavaScript",
+            "HTML",
+            "CSS / SCSS",
+            "GraphQL",
+          ],
+        },
+        {
+          code: "03",
+          title: "Software & languages",
+          type: "complementary skills",
+          items: ["Java", "JavaFX", "English B2", "A1 / B driving licences"],
+        },
+      ],
+    },
+    contact: {
+      path: "portfolio/contact.js",
+      kicker: "// contact",
+      title: "Let's discuss your",
+      titleAccent: "next project.",
+      prompt: "contact.email",
+      channel: "direct channel",
+      status: "Available for collaborations and professional opportunities.",
+      copy: "Copy email",
+      copied: "Copied",
+      phone: "Phone",
+      linkedin: "LinkedIn",
+    },
+    footer: {
+      built: "Designed and developed with React",
+      top: "Back to top ↑",
+    },
+  },
+};
