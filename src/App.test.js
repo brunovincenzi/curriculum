@@ -17,12 +17,14 @@ test("renders the portfolio, executes terminal commands, changes language, and c
   });
   fireEvent.click(screen.getByRole("button", { name: /esegui/i }));
 
-  expect(screen.getByText(/firmware developer in edalab/i)).toBeInTheDocument();
+  expect(screen.getByText(/^Bruno Vincenzi —/)).toHaveTextContent(/opero a verona e a gela/i);
+  expect(screen.getAllByText(/edalab/i)).toHaveLength(1);
 
   fireEvent.click(screen.getByRole("button", { name: "English" }));
 
   expect(screen.getByRole("link", { name: "Experience" })).toBeInTheDocument();
   expect(screen.getByRole("heading", { name: /professional experience/i })).toBeInTheDocument();
+  expect(screen.getAllByText(/edalab/i)).toHaveLength(1);
   expect(document.documentElement.lang).toBe("en");
 
   fireEvent.click(screen.getByRole("link", { name: "Contact" }));

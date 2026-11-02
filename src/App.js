@@ -175,7 +175,7 @@ function App() {
         </nav>
 
         <div className="header-meta">
-          <div className="system-status" aria-label={language === "it" ? "Sede professionale" : "Professional location"}>
+          <div className="system-status" aria-label={language === "it" ? "Città in cui opero" : "Cities I work in"}>
             <span aria-hidden="true" />
             {content.location}
           </div>
@@ -260,7 +260,7 @@ function App() {
               <pre className="code-block"><code>
                 <span className="code-line"><span className="syntax-purple">const</span> <span className="syntax-blue">developer</span> = {'{'}</span>
                 <span className="code-line code-indent">role: <span className="syntax-green">"{content.profile.code.role}"</span>,</span>
-                <span className="code-line code-indent">company: <span className="syntax-green">"{content.profile.code.company}"</span>,</span>
+                <span className="code-line code-indent">services: <span className="syntax-green">"{content.profile.code.services}"</span>,</span>
                 <span className="code-line code-indent">location: <span className="syntax-green">"{content.profile.code.location}"</span>,</span>
                 <span className="code-line code-indent">focus: [<span className="syntax-green">"{content.profile.code.focus[0]}"</span>, <span className="syntax-green">"{content.profile.code.focus[1]}"</span>],</span>
                 <span className="code-line code-indent">status: <span className="syntax-orange">"{content.profile.code.status}"</span></span>

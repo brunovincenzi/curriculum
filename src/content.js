@@ -7,12 +7,12 @@ export const portfolioContent = {
       skills: "Competenze",
       contact: "Contatti",
     },
-    location: "Verona, Italia",
+    location: "Verona e Gela",
     hero: {
-      eyebrow: "Firmware Developer · Computer Engineering",
-      role: "Embedded systems · Frontend · Software engineering",
+      eyebrow: "Software Developer · Computer Engineering",
+      role: "Sviluppo web full-stack · Sistemi embedded",
       intro:
-        "Progetto software affidabile, dall'interfaccia al microcontrollore. Unisco competenze embedded e frontend per trasformare requisiti tecnici in soluzioni chiare e concrete.",
+        "Opero sia a Verona sia a Gela e progetto siti web, piattaforme e applicazioni su misura. Seguo l'intero sviluppo, dall'analisi dei requisiti alla messa online, curando interfacce, logica applicativa, gestione dei dati e integrazioni con servizi esterni.",
       primaryAction: "Parliamo del progetto",
       secondaryAction: "Scopri il mio percorso",
     },
@@ -21,18 +21,18 @@ export const portfolioContent = {
       kicker: "// profilo professionale",
       title: "Competenze tecniche, visione d'insieme.",
       paragraphs: [
-        "Oggi sviluppo firmware embedded in C, lavorando con microcontrollori e logiche di controllo a basso livello su differenti piattaforme hardware.",
-        "La formazione informatica e l'esperienza frontend mi permettono di comprendere il prodotto nel suo insieme: architettura, implementazione ed esperienza d'uso.",
+        "Realizzo siti e piattaforme web complete, collegando l'esperienza d'uso alle funzionalità e ai dati che le rendono operative. Parto dalle esigenze del progetto per definire l'architettura, sviluppare le funzionalità e accompagnare la soluzione fino alla pubblicazione.",
+        "Unisco la formazione in Informatica all'esperienza nello sviluppo software e firmware embedded. Attualmente frequento la laurea magistrale in Ingegneria Informatica per Sistemi Intelligenti. Affronto ogni progetto con attenzione all'affidabilità, alla manutenzione e alla qualità del codice.",
       ],
       code: {
-        role: "Firmware Developer",
-        company: "Edalab S.r.l.",
-        location: "Verona, IT",
-        focus: ["embedded C", "MCU"],
-        status: "formazione continua",
+        role: "Software Developer",
+        services: "siti e piattaforme web",
+        location: "Verona / Gela, IT",
+        focus: ["full-stack web", "embedded C"],
+        status: "studente magistrale e sviluppatore software/firmware",
       },
       facts: [
-        ["specializzazione", "Firmware embedded"],
+        ["ambiti", "Web full-stack · Embedded"],
         ["formazione", "Computer Engineering"],
         ["lingue", "Italiano · Inglese B2"],
       ],
@@ -40,10 +40,10 @@ export const portfolioContent = {
     profileCard: {
       file: "profile.jpeg",
       title: "Bruno Vincenzi",
-      caption: "Firmware Developer · Verona",
+      caption: "Sviluppo web · Verona e Gela",
       fields: [
-        ["ruolo", "Firmware Developer"],
-        ["azienda", "Edalab S.r.l."],
+        ["ruolo", "Software Developer"],
+        ["operatività", "Verona e Gela"],
         ["formazione", "Computer Engineering"],
       ],
     },
@@ -52,7 +52,7 @@ export const portfolioContent = {
       kicker: "// esperienza",
       title: "Esperienza professionale.",
       intro:
-        "Un percorso dal frontend ai sistemi embedded, costruito su basi informatiche solide e formazione continua.",
+        "Esperienze nello sviluppo di applicazioni web e firmware embedded, con un approccio che collega requisiti, architettura e implementazione.",
       currentStatus: "In corso",
       experiences: [
         {
@@ -68,7 +68,7 @@ export const portfolioContent = {
         {
           id: "LOG_002",
           period: "Ott—Dic 2023",
-          role: "Frontend Developer · Stage",
+          role: "Web Developer · Stage",
           company: "Filosoft S.r.l. · Verona",
           description:
             "Sviluppo di una web application in ambito trading e integrazione dei dati tramite API GraphQL.",
@@ -78,10 +78,10 @@ export const portfolioContent = {
         {
           id: "LOG_001",
           period: "Apr—Giu 2023",
-          role: "Frontend Developer · Stage",
+          role: "Web Developer · Stage",
           company: "Filosoft S.r.l. · Verona",
           description:
-            "Sviluppo dell'interfaccia di una web application dedicata al settore della ristorazione.",
+            "Contributo allo sviluppo di una web application per il settore della ristorazione, con attenzione all'usabilità e all'organizzazione delle schermate.",
           tags: ["Next.js", "HTML", "SCSS"],
           status: "Concluso",
         },
@@ -113,7 +113,7 @@ export const portfolioContent = {
       path: "portfolio/skills.json",
       kicker: "// competenze",
       title: "Competenze tecniche",
-      readout: ["AREE 03", "FOCUS EMBEDDED", "AGGIORNATE"],
+      readout: ["AREE 03", "WEB & EMBEDDED", "AGGIORNATE"],
       cardStatus: "competenza attiva",
       cards: [
         {
@@ -124,15 +124,15 @@ export const portfolioContent = {
         },
         {
           code: "02",
-          title: "Frontend development",
-          type: "esperienza",
+          title: "Sviluppo web full-stack",
+          type: "siti e piattaforme",
           items: [
             "React",
             "Next.js",
             "JavaScript",
-            "HTML",
-            "CSS / SCSS",
-            "GraphQL",
+            "HTML / CSS / SCSS",
+            "Logica applicativa e dati",
+            "API REST / GraphQL",
           ],
         },
         {
@@ -150,7 +150,8 @@ export const portfolioContent = {
       titleAccent: "prossimo progetto.",
       prompt: "contact.email",
       channel: "canale diretto",
-      status: "Disponibile per collaborazioni e opportunità professionali.",
+      status:
+        "Opero a Verona e a Gela. Parliamo del tuo sito, della tua piattaforma web o della tua applicazione su misura.",
       copy: "Copia email",
       copied: "Copiata",
       phone: "Telefono",
@@ -169,12 +170,12 @@ export const portfolioContent = {
       skills: "Skills",
       contact: "Contact",
     },
-    location: "Verona, Italy",
+    location: "Verona and Gela",
     hero: {
-      eyebrow: "Firmware Developer · Computer Engineering",
-      role: "Embedded systems · Frontend · Software engineering",
+      eyebrow: "Software Developer · Computer Engineering",
+      role: "Full-stack web development · Embedded systems",
       intro:
-        "I design reliable software, from interfaces to microcontrollers. I combine embedded and frontend expertise to turn technical requirements into clear, practical solutions.",
+        "I work in both Verona and Gela, designing and building websites, platforms, and custom web applications. I handle the entire development process, from requirements to launch, covering interfaces, application logic, data management, and integrations with external services.",
       primaryAction: "Discuss a project",
       secondaryAction: "Explore my experience",
     },
@@ -183,18 +184,18 @@ export const portfolioContent = {
       kicker: "// professional profile",
       title: "Technical expertise, broad perspective.",
       paragraphs: [
-        "I currently develop embedded firmware in C, working with microcontrollers and low-level control logic across different hardware platforms.",
-        "My computer science background and frontend experience help me understand the product as a whole: architecture, implementation, and user experience.",
+        "I build complete websites and web platforms, connecting the user experience with the functionality and data behind it. Starting from the project's needs, I define the architecture, develop the features, and take the solution through to launch.",
+        "I combine my Computer Science background with experience in software and embedded firmware development. I am currently pursuing a Master's degree in Computer Engineering for Intelligent Systems. I approach each project with a focus on reliability, maintainability, and code quality.",
       ],
       code: {
-        role: "Firmware Developer",
-        company: "Edalab S.r.l.",
-        location: "Verona, IT",
-        focus: ["embedded C", "MCU"],
-        status: "always learning",
+        role: "Software Developer",
+        services: "websites and web platforms",
+        location: "Verona / Gela, IT",
+        focus: ["full-stack web", "embedded C"],
+        status: "master degree student and software/firmware developer",
       },
       facts: [
-        ["specialisation", "Embedded firmware"],
+        ["focus", "Full-stack web · Embedded"],
         ["education", "Computer Engineering"],
         ["languages", "Italian · English B2"],
       ],
@@ -202,10 +203,10 @@ export const portfolioContent = {
     profileCard: {
       file: "profile.jpeg",
       title: "Bruno Vincenzi",
-      caption: "Firmware Developer · Verona",
+      caption: "Web development · Verona and Gela",
       fields: [
-        ["role", "Firmware Developer"],
-        ["company", "Edalab S.r.l."],
+        ["role", "Software Developer"],
+        ["working in", "Verona and Gela"],
         ["education", "Computer Engineering"],
       ],
     },
@@ -214,7 +215,7 @@ export const portfolioContent = {
       kicker: "// experience",
       title: "Professional experience.",
       intro:
-        "A path from frontend development to embedded systems, supported by a solid computer science background and continuous learning.",
+        "Experience in web application and embedded firmware development, connecting requirements, architecture, and implementation.",
       currentStatus: "Current",
       experiences: [
         {
@@ -230,7 +231,7 @@ export const portfolioContent = {
         {
           id: "LOG_002",
           period: "Oct—Dec 2023",
-          role: "Frontend Developer · Internship",
+          role: "Web Developer · Internship",
           company: "Filosoft S.r.l. · Verona",
           description:
             "Developed a trading web application and integrated its data through GraphQL APIs.",
@@ -240,10 +241,10 @@ export const portfolioContent = {
         {
           id: "LOG_001",
           period: "Apr—Jun 2023",
-          role: "Frontend Developer · Internship",
+          role: "Web Developer · Internship",
           company: "Filosoft S.r.l. · Verona",
           description:
-            "Developed the interface of a web application for the restaurant industry.",
+            "Contributed to a web application for the restaurant industry, focusing on usability and screen layout.",
           tags: ["Next.js", "HTML", "SCSS"],
           status: "Completed",
         },
@@ -275,7 +276,7 @@ export const portfolioContent = {
       path: "portfolio/skills.json",
       kicker: "// skills",
       title: "Technical skills",
-      readout: ["AREAS 03", "EMBEDDED FOCUS", "UP TO DATE"],
+      readout: ["AREAS 03", "WEB & EMBEDDED", "UP TO DATE"],
       cardStatus: "active skill set",
       cards: [
         {
@@ -286,15 +287,15 @@ export const portfolioContent = {
         },
         {
           code: "02",
-          title: "Frontend development",
-          type: "experience",
+          title: "Full-stack web development",
+          type: "websites and platforms",
           items: [
             "React",
             "Next.js",
             "JavaScript",
-            "HTML",
-            "CSS / SCSS",
-            "GraphQL",
+            "HTML / CSS / SCSS",
+            "Application logic and data",
+            "REST / GraphQL APIs",
           ],
         },
         {
@@ -312,7 +313,8 @@ export const portfolioContent = {
       titleAccent: "next project.",
       prompt: "contact.email",
       channel: "direct channel",
-      status: "Available for collaborations and professional opportunities.",
+      status:
+        "I work in both Verona and Gela. Let's discuss your website, web platform, or custom application.",
       copy: "Copy email",
       copied: "Copied",
       phone: "Phone",
